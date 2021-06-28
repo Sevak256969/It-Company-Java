@@ -18,8 +18,8 @@ public class TestSimulationUtil {
         String email = TestUtil.getRandomEmail(10);
         String phoneNumber = TestUtil.getRandomPhoneNumber();
         String personalId = TestUtil.getUuid();
-        Employee employee = new Employee(specialistType, qualificationLevel, personalId, firstName,
-                            phoneNumber, email, lastName, birthDate);
+        Employee employee = new Employee(specialistType, qualificationLevel, personalId, firstName, lastName,
+                            phoneNumber, email, birthDate);
         return employee;
     }
     public static ArrayList<Employee> GenerateFutureEmployeePool(int futureEmployeeCount){

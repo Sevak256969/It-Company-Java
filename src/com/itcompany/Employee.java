@@ -144,7 +144,7 @@ public class Employee extends Person implements IReportable {
 
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("first name = " + this.firstName +" last name =  " + this.lastName +
-                        "birthdate = " +this.birthDate + " personal id = " + this.personalId +
+                        " birthdate = " +this.birthDate + " personal id = " + this.personalId +
                         " qualification = " + this.qualificationLevel+ " specialistType = " + this.specialistType);
         return stringBuilder.toString();
     }

@@ -13,7 +13,7 @@ public class Unit <T> implements IReportable{
     }
 
     // Fields
-    String unitId = CompanyUtil.getGuid();
+    String unitId = CompanyUtil.getUuid();
     UnitType unitType;
     LocalDate createDate = LocalDate.now();
     LocalDate updateDate;
